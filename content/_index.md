@@ -3,22 +3,6 @@ layout: blocks
 title: Homepage
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
-- template: navigation-header-w-button
-  block: header-2
-  logo: "/uploads/oculi350x100.png"
-  navigation:
-  - link_url: "/"
-    link_text: Home
-  - link_url: "#"
-    link_text: Features
-  - link_url: "#"
-    link_text: Pricing
-  - link_url: "#"
-    link_text: Team
-  cta:
-    link_url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    link_text: Sign Up
-    open_in_new_tab: true
 - template: hero-banner-w-image
   block: hero-2
   headline: uBuild <br><strong>design blocks</strong>
@@ -32,6 +16,13 @@ page_sections:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  navigation:
+  - link_url: "#"
+    link_text: Nav 3
+  - link_url: "#"
+    link_text: Nav 2
+  - link_url: "#"
+    link_text: Nav 1
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -76,5 +67,21 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world!
+- template: navigation-header-w-button
+  block: header-2
+  logo: "/uploads/oculi350x100.png"
+  navigation:
+  - link_url: "/"
+    link_text: Home
+  - link_url: "#"
+    link_text: Features
+  - link_url: "#"
+    link_text: Pricing
+  - link_url: "#"
+    link_text: Team
+  cta:
+    link_url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
+    link_text: Sign Up
+    open_in_new_tab: true
 
 ---
